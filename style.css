@@ -6,3 +6,35 @@
 body{
     font-family: "Work Sans", sans-serif;
 }
+:root{
+    --headerColor: #000000;
+    --btnColor: #FF900E;
+    --pColor: #727272;
+}
+/* header are start */
+/* nav area start */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.bg_color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.nav_links{
+    display: flex;
+    text-decoration: none;
+    font-size: 18px;
+       
+}
+.nav_item{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+}
+.nav_item a{
+    color: #727272;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
